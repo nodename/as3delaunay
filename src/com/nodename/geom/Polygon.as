@@ -18,7 +18,7 @@ package com.nodename.geom
 
 		public function winding():Winding
 		{
-			var signedDoubleArea:Number = signedDoubleArea();
+			var signedDoubleArea:Number = this.signedDoubleArea();
 			if (signedDoubleArea < 0)
 			{
 				return Winding.CLOCKWISE;
